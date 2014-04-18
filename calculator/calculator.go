@@ -1,11 +1,11 @@
-package main
-import "fmt"
+package main	//Main Package
+import "fmt" 	//importing "Format" package
 
 func main() {
- var method string
- var a ,b float32
- fmt.Print("Enter Method as '+', '-', '*', '/'   ")
- fmt.Scan(&method)
+ var method string	//String variable
+ var a ,b float32	//Float variable
+ fmt.Print("Enter Method as '+', '-', '*', '/'   ")	//Output on screen
+ fmt.Scan(&method)	//User input
  fmt.Print("Enter First Number   ")
  fmt.Scan(&a)
  fmt.Print("Enter Second Number   ")
