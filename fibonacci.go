@@ -1,5 +1,7 @@
 package main
+
 import "fmt"
+
 func main() {
  var a,b = 0,1
  fmt.Printf(" %d ", a)
